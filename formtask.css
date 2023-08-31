@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+   background-color: rgb(212, 184, 248);
+}
+main{
+    display: flex;
+    color: black;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+main form{
+    width: 30%;
+    background-color: brown;
+    padding: 20px;
+    border-radius: 8px;
+}
+#ok{
+    color: yellow;
+    justify-content: center;
+    display: flex;
+    height: 5x;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    margin: 20px;
+    
+}
+#op{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    color: rgb(8, 8, 8);
+    margin: 20;
+    padding: 20;
+}
+h5{
+    color: black;
+    padding: 20;
+    margin: 20;
+opacity: 2.4px;
+letter-spacing: 1px;    
+
+}
+#state{
+    display: flex;
+    justify-content: center;
+
+}
+label,#text,#pass{
+    display: block;
+    }
+#text,#pass{
+display: flex;
+justify-content: center;
+width: 100%;
+height: 30px;
+border-radius: 5px;
+border: none;
+padding-left: 10px;
+margin-bottom: 10px;
+color: rgb(247, 242, 242);
+
+}
+main form div{
+display: flex;
+justify-content: center;
+}
+button{
+    
+height: 40px;
+width: 100%;
+border: 10px;
+border-radius: 35px;
+margin: 10px 0px;
+background-color: yellow;
+color: rgb(17, 17, 17);
+justify-content: center;
+}
+
+#text::placeholder{
+color: rgb(8, 8, 8);
+opacity: 16%;
+}
+#pass::placeholder{
+color: black;
+opacity: 15%;
+}
+a{
+    color: green;
+    display: flex;
+    justify-content: right;
+}
+.cont{
+    text-decoration: none;
+    display: flex;
+    text-align: left;
+    color: rgba(255, 255, 0, 0.932);
+    font-size: 70px;
+    justify-content: center;
+    border: 100px;
+}
+.b5{
+    display: flex;
+    align-items: center;
+
+}
